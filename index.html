@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type ="text/css" href="style.css"> </link>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OHLC Engine</title>
+</head>
+<body>
+    <h1 class="title">Stock Sentiment - Team 4</h1>
+    <br>
+    <p style="color:orange;">
+        Welcome to Stock Sentiment. Here you can check the stock sentiment values for many different stocks.
+        We maintain stock values for many different stocks, so feel free to use our site for all your requirements!
+    </p>
+        <img src="1.jpeg" style="width:500px;height:300px;">
+    
+  <!--  <canvas> element is used to draw graphics on a web page. -->
+    <div align="center">
+        <input type="text" id="myInput">
+        <button id="myBtn">Show Value</button>
+        <canvas id="myChart"></canvas>
+</div>
+<div align="left">
+    <button id = "myBtn2">History</button>
+  </div>  
+  <div id="result"></div>
+  <!-- (best practice to load all the script files at the bottom) -->
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+<canvas id="myChart" width="400" height="400"></canvas>
+<script src = "script.js">
+  
+</script>
+</body>
+</html>
